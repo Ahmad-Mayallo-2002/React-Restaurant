@@ -1,0 +1,6 @@
+.menu-page header {
+    background-image: linear-gradient(rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)), url(../assets/img/menu-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}

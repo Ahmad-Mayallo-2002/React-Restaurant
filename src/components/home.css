@@ -1,0 +1,39 @@
+.home-page header {
+    background-image: url(../assets/img/header-img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+header h1,
+header h2 {
+    text-shadow: 2px 2px 8px #fff;
+}
+
+.menu-section {
+    background-image: linear-gradient(rgb(0 0 0 / 0.7), rgb(0 0 0 / 0.7)), url(../assets/img/menu-img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    border-width: 5px;
+    border-style: solid;
+    object-fit: cover;
+    height: 100% !important;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 3rem;
+    }
+}

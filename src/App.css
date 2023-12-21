@@ -1,0 +1,30 @@
+
+nav .container .navbar-collapse .me-auto {
+    column-gap: 10px;
+}
+
+nav .container .navbar-collapse a {
+    transition: .5s;
+    position: relative;
+}
+
+nav .container .navbar-collapse a:hover {
+    color: green !important;
+}
+
+nav .container .navbar-collapse a::before {
+    position: absolute;
+    content: "";
+    transition: .5s;
+    opacity: 0;
+    width: 0%;
+    height: 1%;
+    background-color: green;
+    bottom: 0;
+    left: 0;
+}
+
+nav .container .navbar-collapse a:hover::before {
+    width: 100%;
+    opacity: 1;
+}
